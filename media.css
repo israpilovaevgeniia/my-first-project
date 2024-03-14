@@ -1,0 +1,283 @@
+@media (max-width: 1440px) {
+    .about_me {
+        font-size: 4vw;
+    }
+    .content_title-desc {
+        font-size: 3vw;
+    }
+    .content_wrapper-img {
+        width: 50vw;
+    }
+    .about_blog-title {
+        font-size: 4vw;
+    }
+    .read_more-link {
+        font-size: 3vw;
+    }
+    .subscribe_text {
+        font-size: 4vw;
+    }
+    .subscribe_div {
+        margin-left: 100px;
+        width: 50vw;
+    }
+
+}
+@media (max-width: 1200px) {
+    .content_wrapper {
+        width: 50vw;
+        display: block;
+    }
+    .about_me {
+        font-size: 4vw;
+        margin-left: 20px;
+
+    }
+    .content_title-desc {
+        font-size: 3vw;
+    }
+    .about_blog-title {
+        font-size: 4vw;
+    }
+    .read_more-link {
+        font-size: 3vw;
+    }
+    .image_one1 {
+        width: 40vw;
+    }
+    .image_two2 {
+        width: 40vw;
+    }
+    .text_one {
+        font-size: 4vw;
+    }
+    .emply {
+        margin-top: 20px;
+    }
+    .text_one-info {
+        line-height: 3px;
+    }
+    .subscribe_text {
+        font-size: 4vw;
+    }
+    .subscribe_div {
+        
+
+    }
+
+}
+@media (max-width: 900px) {
+    .content_wrapper {
+        width: 50vw;
+        display: block;
+    } 
+    .about_me {
+        font-size: 4vw;
+        margin-left: 20px;
+    }
+    .content_title-desc {
+        font-size: 3vw;
+    }
+    .about_blog-title {
+        font-size: 4vw;
+    }
+    .read_more-link {
+        font-size: 3vw;
+    }
+    .div_one {
+        display: block;
+    }
+    .image_one1 {
+        width: 40vw;
+    }
+    .image_two2 {
+        width: 40vw;
+    }
+    .text_one {
+        font-size: 4vw;
+        padding-top: 10px;
+        margin-left: 10px;
+
+    }
+    .text_two {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .emply {
+        margin-top: 20px;
+    }
+    .div_two {
+        display: block;
+    }
+    .text_one-info {
+        line-height: 3px;
+    }
+    .subscribe_text {
+        font-size: 4vw;
+    }
+    .subscribe_div {
+        margin-left: 100px;
+        width: 50vw;
+    }
+    .end_text {
+        font-size: 4vw;
+    }
+    .end_img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .header nav ul li {
+        font-size: 4vw;
+        margin-right: 10px;
+    }
+    
+    .content_avatar-img {
+        width: 50vw;
+        margin-right: 70px;
+    }
+    
+    .about_me {
+        font-size: 4vw;
+        width: 50%;
+        display: block;
+
+    }
+    .content_title-desc {
+        font-size: 3vw;
+        width: 50%;
+        display: block;
+    }
+    .about_blog-title {
+        font-size: 4vw;
+    }
+    .read_more-link {
+        font-size: 3vw;
+    }
+    .image_one1 {
+        width: 40vw;
+    }
+    .image_two2 {
+        width: 40vw;
+    }
+    .text_one {
+        font-size: 4vw;
+    }
+    .emply {
+        margin-top: 20px;
+    }
+    .text_one-info {
+        line-height: 3px;
+    }
+    .subscribe_text {
+        font-size: 4vw;
+    }
+    .subscribe_div {
+        margin-left: 100px;
+        width: 50vw;
+    }
+    .end_text {
+        font-size: 4vw;
+    }
+    .end_img {
+        width: 60px;
+    }
+}
+   
+   
+/* @media (max-width: 540px) {
+    .header {
+        padding-left: 60px;
+
+    }
+    .header nav ul li {
+        font-size: 4vw;
+        margin-right: 10px;
+
+    }
+   
+    .content_wrapper {
+        width: 50vw;
+    }
+
+    .content_avatar-img {
+        width: 50vw;
+    } 
+
+    .content_title {
+        margin-left: 10px;
+    }
+
+    .about_me {
+        font-size: 4vw;
+    }
+    .content_title-desc {
+        font-size: 3vw;
+    }
+
+} */
+@media (max-width: 400px) {
+    .header {
+        padding-left: 40px;
+
+    }
+
+
+    .header nav ul li {
+        font-size: 4vw;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .content_wrapper {
+        width: 50vw;
+    } 
+
+    .content_title {
+        margin-left: 10px;
+    }
+
+    .about_me {
+        font-size: 4vw;
+    }
+    .content_title-desc {
+        font-size: 3vw;
+    }
+    .about_blog-title {
+        font-size: 4vw;
+    }
+    .read_more-link {
+        font-size: 3vw;
+    }
+    #information {
+        padding-left: 50px;
+
+    }
+    .image_one1 {
+        width: 40vw;
+    }
+    .image_two2 {
+        width: 40vw;
+    }
+    .text_one {
+        font-size: 4vw;
+    }
+    .text_one-info {
+        line-height: 3px;
+    }
+    .subscribe_text {
+        font-size: 4vw;
+    }
+    .subscribe_div {
+        margin-left: 100px;
+        width: 50vw;
+    }
+    .end_text {
+        font-size: 4vw;
+    }
+    .end_img {
+        width: 60px;
+    }
+    
+}
