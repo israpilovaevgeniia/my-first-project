@@ -184,39 +184,7 @@
         width: 60px;
     }
 }
-   
-   
-/* @media (max-width: 540px) {
-    .header {
-        padding-left: 60px;
 
-    }
-    .header nav ul li {
-        font-size: 4vw;
-        margin-right: 10px;
-
-    }
-   
-    .content_wrapper {
-        width: 50vw;
-    }
-
-    .content_avatar-img {
-        width: 50vw;
-    } 
-
-    .content_title {
-        margin-left: 10px;
-    }
-
-    .about_me {
-        font-size: 4vw;
-    }
-    .content_title-desc {
-        font-size: 3vw;
-    }
-
-} */
 @media (max-width: 400px) {
     .header {
         padding-left: 40px;

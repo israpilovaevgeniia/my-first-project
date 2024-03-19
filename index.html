@@ -12,15 +12,16 @@
 <body>
     <main>
         <header class="header">
-            <nav class="header_nav">
-                <ul>
-                    <li><a class="header_nav-link" href="#">Home</a></li>
-                    <li><a class="header_nav-link" href="#">Blog</a></li>
-                    <li><a class="header_nav-link" href="#">About me</a></li>
-                    <li><a class="header_nav-link" href="#">Subscibe</a></li>
-                  
-                </ul>
-            </nav>
+            <div class="header__link">
+                <nav class="header_nav">
+                        <ul>
+                            <li><a class="header_nav-link" href="#">Home</a></li>
+                            <li><a class="header_nav-link" href="#">Blog</a></li>
+                            <li><a class="header_nav-link" href="#">About me</a></li>
+                            <li><a class="header_nav-link" href="#">Subscibe</a></li>
+                        </ul>
+                    </nav>
+                </div>
         </header>
         <section id="blog">
             <div class="content_wrapper">
@@ -28,18 +29,27 @@
                     <img class="content_avatar-img" src="./image/Ellipse 2 (1).png" alt="image">
                 </div>
                 <div class="content_title">
-                    <span class="about_me">Привет! Меня зовут
+                    <div class="div__about_me"> 
+                        <span class="about_me">Привет! Меня зовут
                         Илья и это мой блог</span>
-                    <span class="content_title-desc">Круто, что ты здесь!</span>
+                    </div>
+                    <div class="div__content_title-desc">
+                        <span class="content_title-desc">Круто, что ты здесь!</span>
+                    </div>
                 </div>
             </div>
         </section>
         <section id="about_blog">
-            <h2 class="about_blog-title">Здесь я пишу рассказываю о компьютерах, аниме, фильмах и обо всем, что связано с моей жизнью </h2>
-            <div class="read_more">
-                <a class="read_more-link" href="#">Читать больше...</a>
+            <div class="div__about_blog">
+                <div class="div__about_blog-title">
+                    <h2 class="about_blog-title">Здесь я пишу рассказываю о компьютерах, аниме, фильмах и обо всем, что связано с моей жизнью </h2>
+                </div>
+                <div class="read_more">
+                    <a class="read_more-link" href="#">Читать больше...</a>
+                </div>
             </div>
         </section> 
+
         <section id="information">
             <div class="information_wrapper">
                 <div class="div_one">
@@ -65,22 +75,26 @@
                         <span class="text_two-info">Возможности современных роботов в производстве автомобилей</span>
                     </div> 
                 </div>
-                <div class="read_more">
+                <div class="read_more2">
                     <a class="read_more-link" href="#">Читать больше...</a>
                 </div>
             </div>
         </section>
+
         <section id="blog_subscribe">
-            <div class="subscribe_title">
-                <h2 class="subscribe_text">Хотели бы вы получать электронные письма с моими публикациями каждую пятницу? Если да, то рассмотрите возможность подписки</h2>
-            </div>
-            <div class="subscribe_div">
-                <form class="subscribe_form" action="#">
-                    <input id="email" class="subscribe" placeholder="Введите адрес электронной почты" type="email">
-                </form>
-                <button class="btn" type="submit">Подписаться</button>
+            <div class="blog_subscribe-div"> 
+                <div class="subscribe_title">
+                    <h2 class="subscribe_text">Хотели бы вы получать электронные письма с моими публикациями каждую пятницу? Если да, то рассмотрите возможность подписки</h2>
+                </div>
+                <div class="subscribe_div">
+                    <form class="subscribe_form" action="#">
+                        <input id="email" class="subscribe" placeholder="Введите адрес электронной почты" type="email">
+                    </form>
+                    <button class="btn" type="submit">Подписаться</button>
+                </div>
             </div>
         </section>
+
         <section id="end">
             <div class="end_div">
                 <div class="end_div-text">
@@ -118,8 +132,6 @@
                         </a>
                     </div>
                 </div>
-                
-        
             </div>
         </section>
     </main>
